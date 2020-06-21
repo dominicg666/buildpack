@@ -1,6 +1,6 @@
 {
   "name": "@baaz/buildpack",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "publishConfig": {
     "access": "public"
   },
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dominicg666/-dom-buildpack.git"
+    "url": "git+https://github.com/dominicg666/buildpack.git"
   },
   "keywords": [
     "react",
@@ -24,9 +24,9 @@
   ],
   "author": "Dominic George",
   "license": "ISC",
-  "homepage": "https://github.com/dominicg666/-dom-buildpack#readme",
+  "homepage": "https://github.com/dominicg666/buildpack#readme",
   "bugs": {
-    "url": "https://github.com/dominicg666/-dom-buildpack/issues"
+    "url": "https://github.com/dominicg666/buildpack/issues"
   },
   "dependencies": {
     "@babel/core": "~7.10.2",
