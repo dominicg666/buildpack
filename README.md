@@ -1,5 +1,5 @@
-# @react_pwa/buildpack  [![npm version](https://img.shields.io/npm/v/@react_pwa/buildpack.svg?style=flat)](https://www.npmjs.com/package/@react_pwa/buildpack)
-[React](http://facebook.github.io/react/) + [@react_pwa/buildpack](https://github.com/dominicg666/-dom-buildpack/) + [@react_pwa/buildpack](https://www.npmjs.com/package/@react_pwa/buildpack/)
+# @baaz/buildpack  [![npm version](https://img.shields.io/npm/v/@baaz/buildpack.svg?style=flat)](https://www.npmjs.com/package/@baaz/buildpack)
+[React](http://facebook.github.io/react/) + [@baaz/buildpack](https://github.com/dominicg666/buildpack/) + [@baaz/buildpack](https://www.npmjs.com/package/@baaz/buildpack/)
 
 
 
@@ -12,7 +12,7 @@
 // ...
 const {
   configureWebpack
-} = require('@react_pwa/buildpack');
+} = require('@baaz/buildpack');
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 
