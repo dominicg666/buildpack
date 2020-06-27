@@ -48,6 +48,17 @@ module.exports = async function ({
                     }]
                 },
                 {
+                    test: /\.(jpg|svg|png|gif)$/,
+                    use: [
+                        {
+                            loader: 'file-loader',
+                            options: {
+                                name: '[name].[ext]'
+                            }
+                        }
+                    ]
+                },
+                {
                     test: /\.html$/,
                     use: [
                         {
