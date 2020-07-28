@@ -40,16 +40,12 @@ module.exports = async env => {
 //...
 ```
 
-### 2. .babelrc
-create a .babelrc
+### 2. babel.config.js
+create a babel.config.js
 
 ```js
-{
-    "presets": [
-        "@babel/preset-env",
-        "@babel/preset-react"
-    ]
-}
+module.exports = { presets: ['@baaz/adapter'] };
+
 ```
 
 

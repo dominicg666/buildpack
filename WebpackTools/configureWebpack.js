@@ -3,6 +3,16 @@ const path = require('path');
 const pkgDir = require('pkg-dir');
 const getServiceWorkerConfig = require('../Utilities/getServiceWorkerConfig');
 const getClientConfig = require('../Utilities/getClientConfig');
+
+
+function getMode(cliEnv = {}) {
+    if (cliEnv.mode) {
+        return cliEnv.mode;
+    }
+    return 'development';
+}
+
+
 async function configureWebpack(options) {
     const { context } = options;
 
@@ -27,7 +37,10 @@ async function configureWebpack(options) {
         []
     );
 
+    const mode = getMode(options.argv);
+
     const configOptions = {
+        mode,
         context,
         paths,
         hasFlag
